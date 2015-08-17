@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="UnitConverter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UnitConverter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid x:Name="grdTemp" HorizontalAlignment="Left" Height="373" Margin="60,47,0,0" VerticalAlignment="Top" Width="474">
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="47,64,0,0" TextWrapping="Wrap" Text="Celcius" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtCelcius" HorizontalAlignment="Left" Margin="274,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="47,118,0,0" TextWrapping="Wrap" Text="Fahrenheit" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtFahrenheit" HorizontalAlignment="Left" Margin="274,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="47,168,0,0" TextWrapping="Wrap" Text="Kelvin" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtKelvin" HorizontalAlignment="Left" Margin="274,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+        </Grid>
+        <Grid x:Name="grdLength" HorizontalAlignment="Left" Height="615" Margin="722,47,0,0" VerticalAlignment="Top" Width="561">
+            <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="47,64,0,0" TextWrapping="Wrap" Text="Kilometer" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtKilometer" HorizontalAlignment="Left" Margin="274,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="47,101,0,0" TextWrapping="Wrap" Text="Meter" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtMeter" HorizontalAlignment="Left" Margin="274,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="47,138,0,0" TextWrapping="Wrap" Text="CentiMeter" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtCentimeter" HorizontalAlignment="Left" Margin="274,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Margin="47,175,0,0" TextWrapping="Wrap" Text="Millimeter" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtMillimeter" HorizontalAlignment="Left" Margin="274,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Margin="47,212,0,0" TextWrapping="Wrap" Text="League" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtLeague" HorizontalAlignment="Left" Margin="274,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="47,249,0,0" TextWrapping="Wrap" Text="Mile" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtMile" HorizontalAlignment="Left" Margin="274,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="47,286,0,0" TextWrapping="Wrap" Text="Yard" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtYard" HorizontalAlignment="Left" Margin="274,286,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+            <TextBlock x:Name="textBlock_Copy9" HorizontalAlignment="Left" Margin="47,323,0,0" TextWrapping="Wrap" Text="Inch" VerticalAlignment="Top" Height="39" Width="158" FontSize="21.333"/>
+            <TextBox x:Name="txtInch" HorizontalAlignment="Left" Margin="274,323,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" GotFocus="txtBox_GotFocus" TextChanged="txtBox_TextChanged"/>
+        </Grid>
+
+    </Grid>
+</Page>
