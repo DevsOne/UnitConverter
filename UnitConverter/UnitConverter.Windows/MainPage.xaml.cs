@@ -98,17 +98,15 @@ namespace UnitConverter
 
         public static List<Unit> UnitConversion(Unit from, double value, List<Unit> unitList)
         {
-            var list = unitList;
             double v = 0.0;
-
-
-            foreach (var unit in list)
+            
+            foreach (var unit in unitList)
             {
                 v = (value - from.Shift) / from.Scale;
                 unit.Value = v * unit.Scale + unit.Shift;
 
             }
-            return list;
+            return unitList;
         }
 
         public void Calculate(Unit unit, List<Unit> unitList, string text, List<TextBox> textBoxList, TextBox txt)
